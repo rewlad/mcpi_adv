@@ -21,3 +21,5 @@ mc.setBlocks(8,1,19,9,11,20,books)
 table=58
 wood = 5
 mc.setBlocks(8,1,16,9,1,17,table)
+
+#can write
