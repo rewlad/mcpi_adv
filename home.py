@@ -14,12 +14,16 @@ mc.setBlocks(10,1,2,10,5,5,door) #door
 mc.setBlocks(10,10,17,10,2,16,0) #win
 mc.setBlocks(10,10,12,10,2,13,0) #win
 mc.setBlocks(10,10,8,10,2,9,0) #win
-bed=26
-mc.setBlocks(1,1,19,1,1,20,bed)
+#bed
+mc.setBlock(1,1,20,26,8)
+mc.setBlock(1,1,19,26,0)
 books=47
 mc.setBlocks(8,1,19,9,11,20,books)
 table=58
 wood = 5
 mc.setBlocks(8,1,16,9,1,17,table)
 
-#can write
+
+#mc.getBlockWithData(8,1,16)
+#mc.player.getTilePos()
+#mc.player.setTilePos(0,20,0)
